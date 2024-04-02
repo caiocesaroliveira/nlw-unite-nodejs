@@ -1,0 +1,29 @@
+{
+  "name": "nlw-unite-nodejs",
+  "version": "1.0.0",
+  "description": "O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**.\r A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.\r Os participantes inscritos podem emitir uma credencial para check-in no dia do evento.\r O sistema fará um scan da credencial do participante para permitir a entrada no evento.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsx watch --env-file .env src/server.ts",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Caio César de Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "prisma": "^5.12.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.0",
+    "fastify": "^4.26.2",
+    "zod": "^3.22.4"
+  }
+}
