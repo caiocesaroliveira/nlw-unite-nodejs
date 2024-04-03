@@ -2,7 +2,26 @@ POST http://localhost:3333/events
 Content-Type: 'application/json'
 
 {
-  "title": "Unite Summit",
-  "details" : "Um evento para quem é apaixonado por programação",
-  "maximumAttendees": 100
+  "title": "Novo Evento Unite",
+  "details" : null,
+  "maximumAttendees": 1
 }
+
+###
+
+POST http://localhost:3333/events/26931c28-b423-4931-89ae-be3d75337f35/attendees
+Content-Type: 'application/json'
+
+{
+  "name": "Caio César",
+  "email" : "caio@nlw.com"
+}
+
+###
+
+GET http://localhost:3333/events/9fcb07ce-9a8d-4f2c-99e6-07d8be595d27
+
+### 
+
+GET http://localhost:3333/attendees/4/badge
+
