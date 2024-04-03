@@ -20,7 +20,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 - [x]  O participante só pode se inscrever em um evento uma única vez;
 - [x]  O participante só pode se inscrever em eventos com vagas disponíveis;
-- [ ]  O participante só pode realizar check-in em um evento uma única vez;
+- [x]  O participante só pode realizar check-in em um evento uma única vez;
 
 ### Requisitos não-funcionais
 

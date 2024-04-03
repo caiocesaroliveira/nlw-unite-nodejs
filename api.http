@@ -2,26 +2,34 @@ POST http://localhost:3333/events
 Content-Type: 'application/json'
 
 {
-  "title": "Novo Evento Unite",
-  "details" : null,
-  "maximumAttendees": 1
+  "title": "NLW Unite",
+  "details" : "Um evento para que ama programação",
+  "maximumAttendees": 3
 }
 
 ###
 
-POST http://localhost:3333/events/26931c28-b423-4931-89ae-be3d75337f35/attendees
+POST http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30/attendees
 Content-Type: 'application/json'
 
 {
-  "name": "Caio César",
-  "email" : "caio@nlw.com"
+  "name": "Oliveira Caio",
+  "email" : "oliveira@nlw.com"
 }
 
 ###
 
-GET http://localhost:3333/events/9fcb07ce-9a8d-4f2c-99e6-07d8be595d27
+GET http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30
 
 ### 
 
 GET http://localhost:3333/attendees/4/badge
 
+### 
+
+GET http://localhost:3333/attendees/5/check-in
+
+### 
+
+GET http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30/attendees
+# GET http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30/attendees?query=césar
