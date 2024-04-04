@@ -28,7 +28,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 ## Especificações da API
 
-[Swagger UI](https://nlw-unite-nodejs.onrender.com/docs/static/index.html)
+[Swagger UI](http://localhost:3333/docs/static/index.html)
 
 ## Banco de dados
 

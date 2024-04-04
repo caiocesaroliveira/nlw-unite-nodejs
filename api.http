@@ -9,7 +9,7 @@ Content-Type: 'application/json'
 
 ###
 
-POST http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30/attendees
+POST http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees
 Content-Type: 'application/json'
 
 {
@@ -19,7 +19,7 @@ Content-Type: 'application/json'
 
 ###
 
-GET http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30
+GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33
 
 ### 
 
@@ -31,5 +31,5 @@ GET http://localhost:3333/attendees/5/check-in
 
 ### 
 
-GET http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30/attendees
-# GET http://localhost:3333/events/2665509d-8398-439d-83a8-6093a363ed30/attendees?query=césar
+GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees
+# GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees?query=césar
